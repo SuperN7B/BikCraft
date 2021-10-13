@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contato.css" />
+    <link rel="stylesheet" href="css/responsivo.css" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <title>Bikecraft | Контакты</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="index.html" class="grid-4">
+          <img src="img/bikcraft.svg" alt="Logo Bikecraft" />
+        </a>
+        <nav class="grid-12 header_menu">
+          <ul>
+            <li><a href="sobre.html">О нас</a></li>
+            <li><a href="produtos.html">Продукция</a></li>
+            <li><a href="portifolio.html">Портфолио</a></li>
+            <li><a href="contato.html">Контакты</a></li>
+            <li><a href="admin.html">Админка</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="introducao-interna interna-contato">
+      <div class="container">
+        <h1 data-anime="400" class="fadeInDown">Контакты</h1>
+        <p data-anime="800" class="fadeInDown">Задавайте свои вопросы нам</p>
+      </div>
+    </section>
+
+    <!-- Formulario -->
+    <section class="contato container fadeInDown" data-anime="1200">
+      <form id="form-orcamento" class="contato-form grid-8">
+        <label for="nome">Ф.И.О.</label>
+        <input type="text" id="nome" />
+        <label for="nome">E-mail</label>
+        <input type="email" id="email" />
+        <label for="telefone">Телефон</label>
+        <input type="text" id="telefone" />
+        <label for="espec">Технические характеристики</label>
+        <textarea id="espec"></textarea>
+        <button type="submit" class="btn btn-preto">Отправить</button>
+      </form>
+      <div class="contato-dados grid-8">
+        <h3>Контакты</h3>
+        <span>+7-(708)-823-02-64</span>
+        <span>asetser@mail.ru</span>
+        <span>г.Алматы Абая 52г</span>
+        <span>Казахстан</span>
+        <h3>СОЦИАЛЬНЫЕ СЕТИ</h3>
+        <ul>
+          <li>
+            <a href="" target="_blanck">
+              <img src="img/redes-sociais/facebook.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blanck">
+              <img src="img/redes-sociais/instagram.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blanck">
+              <img src="img/redes-sociais/twitter.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="container">
+      <a href="#"><img src="img/endereco-bikcraft.jpg" alt="Endereço Bikecraft" class="grid-16 contato-mapa"/>
+      </a>
+    </section>
+
+    <!-- Footer -->
+    <section class="quebra">
+      <blockquote class="quote-externo container">
+        <p>
+          “Настоящий секрет счастья заключается в наличии искреннего интереса
+          во всех деталях повседневной жизни.”
+        </p>
+        <cite>УИЛЬЯМ МОРРИС</cite>
+      </blockquote>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="grid-8 footer-historia">
+            <h3>Наша история</h3>
+            <p>
+              Когда мы создавали Bikcraft, мы просто хотели, чтобы продукт, который
+              мы с удовольствием используем. Мы были увлечены велоспортом, а также
+              делать что-то своими руками. Вот как появилась мечта
+              в гараже нашего дома.
+            </p>
+          </div>
+          <div class="grid-4 footer-contato">
+            <h3>Контакты</h3>
+            <ul>
+              <li>- +7-(708)-823-02-64 </li>
+              <li>- asetser@mail.ru</li>
+              <li>- г.Алматы Абая 52г</li>
+            </ul>
+          </div>
+          <div class="grid-4 footer-redes">
+            <h3>СОЦИАЛЬНЫЕ СЕТИ</h3>
+            <ul>
+              <li>
+                <a href="" target="_blanck">
+                  <img src="img/redes-sociais/facebook.svg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blanck">
+                  <img src="img/redes-sociais/instagram.svg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blanck">
+                  <img src="img/redes-sociais/twitter.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="copy">
+        <div class="container">
+          <p class="grid-16">Bikcraft 2021 - Права защищены.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
